@@ -9,13 +9,14 @@ export default class ScreenB extends React.Component {
         <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.first}>
           <View style={styles.box}>
+          <TouchableOpacity
+              onPress={() => this.props.navigation.navigate("ScreenC")}
+            >
             <Image
               source={require("../assets/img8.jpg")}
               style={styles.image}
             />
-            <TouchableOpacity
-              onPress={() => this.props.navigation.navigate("ScreenC")}
-            >
+           
               <Text style={styles.text}>Animal</Text>
             </TouchableOpacity>
           </View>

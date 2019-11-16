@@ -21,7 +21,7 @@ const RouteConfigs = {
     navigationOptions: () => ({
       title: "Category List",
       headerStyle: { backgroundColor: "#F50985" },
-      headerTitleStyle: { color: "white", textAlign: "center", width: "75%" },
+      headerTitleStyle: { color: "white", textAlign: "center", width: "75%", fontFamily:"Dosis-Bold",fontWeight: "200"},
       headerTintColor: "white"
     })
   },
@@ -30,7 +30,7 @@ const RouteConfigs = {
     navigationOptions: () => ({
       title: "Animal Figure",
       headerStyle: { backgroundColor: "#F50985",},
-      headerTitleStyle: { color: "white", textAlign: "center", width: "75%" },
+      headerTitleStyle: { color: "white", textAlign: "center", width: "75%",fontFamily:"Dosis-Bold",fontWeight: "200" },
       headerTintColor: "white"
     })
   },
@@ -39,7 +39,7 @@ const RouteConfigs = {
     navigationOptions: () => ({
       title: "Cartoon Animal",
       headerStyle: { backgroundColor: "#F50985",},
-      headerTitleStyle: { color: "white", textAlign: "center", width: "75%" },
+      headerTitleStyle: { color: "white", textAlign: "center", width: "75%",fontFamily:"Dosis-Bold",fontWeight: "200"},
       headerTintColor: "white"
     })
   },
@@ -48,7 +48,7 @@ const RouteConfigs = {
     navigationOptions: () => ({
       title: "You can buy here...",
       headerStyle: { backgroundColor: "#F50985",},
-      headerTitleStyle: { color: "white", textAlign: "center", width: "75%" },
+      headerTitleStyle: { color: "white", textAlign: "center", width: "75%",fontFamily:"Dosis-Bold",fontWeight: "200" },
       headerTintColor: "white"
     })
   }

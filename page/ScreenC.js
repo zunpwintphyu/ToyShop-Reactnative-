@@ -79,8 +79,7 @@ export default class ScreenC extends React.Component {
           renderItem={({ item }) => (
             <View style={styles.secContainer}>
               <Image source={item.image} style={styles.image} />
-              <Text
-                style={styles.text}
+              <Text style={styles.text}
                 onPress={() =>
                   this.props.navigation.navigate("ScreenD", {
                     image: item.image,
@@ -90,7 +89,7 @@ export default class ScreenC extends React.Component {
                   })
                 }
               >
-                {item.value}
+               {item.value}
               </Text>
             </View>
           )}
@@ -119,7 +118,8 @@ const styles = StyleSheet.create({
     textAlignVertical: "center",
     paddingLeft: "13%",
     color: "#F50985",
-    fontSize: 16
+    fontSize: 16,
+    fontFamily: 'Dosis-Light',
   },
   image: {
     width: "30%",

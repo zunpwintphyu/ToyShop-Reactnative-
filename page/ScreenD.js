@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 
 export default class ScreenD extends React.Component {
   render() {
-    const { navigation } = this.props;
+    const { navigation} = this.props;
     return (
       <View>
         <View style={styles.container}>
@@ -50,10 +50,10 @@ const styles = StyleSheet.create({
   },
   thirdContainer: {
     backgroundColor: "blue",
-    width: "60%",
+    width: "80%",
     height: 40,
     paddingTop: 8,
-    marginLeft: "20%"
+    marginLeft: "10%"
   },
   text: {
     color: "red"

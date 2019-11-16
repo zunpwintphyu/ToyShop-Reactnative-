@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     color: "#F9419A",
     fontSize: 12,
-    fontFamily: "Pyidaungsu"
+    fontFamily: "Pyidaungsu",
   },
   footer: {
     marginTop: "auto",
